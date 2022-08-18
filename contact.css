@@ -1,0 +1,48 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card-container{
+    border-radius: 10px;
+    border: 2px solid black;
+
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    padding: 30px;
+
+    color: white;
+    font-size: .8rem;
+}
+form input,
+form textarea{
+    width: 500px;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: none;
+    margin-bottom: 10px;
+}
+form textarea{
+    height: 200px;
+}
+.details{
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+.details span{
+    font-size: .8rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
